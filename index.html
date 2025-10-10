@@ -15,7 +15,7 @@
 		<header>
 			<img src="images/logo.png" alt="The Urban India Grazing Company Logo" style="width:150px;height:auto;">
 			<br><br>
-			<h1>The Urban India Grazing Co.</h1>
+			<h1>The Urban India Grazing&nbsp;Co.</h1>
 			<p style="font-size: smaller; margin-block-start: 0;">Curated Grazing Tables – Inspired by India, Styled for the
 				Modern Host</p>
 			<p>Blending Indian flavors, global inspiration, and artistic presentation, we transform gatherings into
@@ -93,7 +93,7 @@
 				<div class="row">
 					<div class="col-3 col-12-narrow">
 						<img class="image" src="images/katha.jpg" alt="Katha Biswas"
-							style="width:200px; height:auto; border-radius: 3em;">
+							style="width:200px; height:auto; border-radius: 3em; margin: 1em;">
 					</div>
 					<div class="col-9 col-12-narrow">
 						<p>For over two decades, I’ve built my career as a software engineer — a field that’s taught me the value of
@@ -536,28 +536,95 @@
 	<section id="fourth" class="main">
 		<header>
 			<div class="container">
-				<h2>Sed feugiat ipsum consequat</h2>
-				<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit
-					amet consequat<br />
-					feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum
-					dolor sit amet.</p>
+				<h2>Let's Get Started...</h2>
+				<p style="text-align: center;">Tell us a little about your event — and let’s start curating your perfect grazing experience. 🌿</p>
 			</div>
 		</header>
 		<div class="content style4 featured">
 			<div class="container medium">
-				<form method="post" action="#">
+				<form method="post" action="https://formsubmit.co/katha@urbanindiagrazing.com">
 					<div class="row gtr-50">
-						<div class="col-6 col-12-mobile"><input type="text" placeholder="Name" /></div>
-						<div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
-						<div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
 						<div class="col-12">
-							<ul class="actions special">
-								<li><input type="submit" class="button" value="Send Message" /></li>
-								<li><input type="reset" class="button alt" value="Clear Form" /></li>
-							</ul>
+							<label for="name">Name *</label>
+							<input type="text" id="name" autocomplete="name" name="name" placeholder="Full Name" required />
+						</div>
+
+						<div class="col-6 col-12-mobile">
+							<label for="email">Email *</label>
+							<input type="email" id="email" autocomplete="email" name="email" inputmode="email" placeholder="Email Address" required />
+						</div>
+
+						<div class="col-6 col-12-mobile">
+							<label for="phone">Phone *</label>
+							<input type="tel" id="phone" name="phone" autocomplete="tel" pattern="\d{10}" inputmode="tel"
+								placeholder="312 456 7890" required title="Please enter a 10-digit phone number (digits only)" />
+						</div>
+						
+						<div class="col-6 col-12-mobile">
+							<label for="contactMethod">Preferred Contact Method *</label>
+							<select id="contactMethod" name="contactMethod" required>
+								<option value="">Select...</option>
+								<option>Email</option>
+								<option>Phone</option>
+								<option>WhatsApp</option>
+								<option>Text Messaging</option>
+							</select>
+						</div>
+						
+						<div class="col-6 col-12-mobile">
+							<label for="package">Preferred Package *</label>
+							<select id="package" name="package" required>
+								<option value="">Select...</option>
+								<option>Standard</option>
+								<option>Signature</option>
+								<option>Luxe</option>
+								<option>Custom</option>
+							</select>
+						</div>
+						
+						<div class="col-6 col-12-mobile">
+							<label for="eventType">Event Type *</label>
+							<input type="text" id="eventType" name="eventType" placeholder="Birthday, Baby Shower, Private Dinner, etc."
+								required />
+						</div>
+
+						<div class="col-6 col-12-mobile">
+							<label for="eventDate">Event Date *</label>
+							<input type="date" id="eventDate" name="eventDate" required />
+						</div>
+
+						<div class="col-6 col-12-mobile">
+							<label for="eventLocation">Event Location *</label>
+							<input type="text" id="eventLocation" autocomplete="street-address" name="eventLocation"
+								placeholder="Address" required />
+						</div>
+
+						<div class="col-6 col-12-mobile">
+							<label for="guests">Number of Guests *</label>
+							<input type="number" id="guests" name="guests" min="10" required />
+						</div>
+
+						<div class="col-12" style="flex: 0 0 100%;">
+							<label for="requests">Any dietary preferences or special requests?</label>
+							<textarea id="requests" name="requests" rows="3"></textarea>
+						</div>
+
+						<div class="col-12" style="flex: 0 0 100%;">
+							<label for="referral">How did you hear about us?</label>
+							<input type="text" id="referral" name="referral" />
+						</div>
+
+						<div class="col-12">
+							<input type="hidden" id="_next" name="_next" value="https://urbanindiagrazing.com/thanks.html">
+							<input type="hidden" id="_subject" name="_subject" value="UIG Web Contact">
+							<input type="hidden" id="_captcha" name="_captcha" value="false">
+							<input type="text" id="_honey" name="_honey" style="display:none">
+							<input type="hidden" id="_autoresponse" name="_autoresponse" value="Thank you for your inquiry! We will get back to you shortly.">
+
+							<input type="submit" class="button" value="Send Message" />
 						</div>
 					</div>
-				</form>
+				</form>				
 			</div>
 		</div>
 	</section>
@@ -565,11 +632,8 @@
 	<!-- Footer -->
 	<section id="footer">
 		<ul class="icons">
-			<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 			<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-			<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-			<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-			<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+			<li><a href="https://www.instagram.com/urbanindiaco/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 		</ul>
 		<div class="copyright">
 			<ul class="menu">
@@ -588,4 +652,5 @@
 	<script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
