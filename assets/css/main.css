@@ -223,6 +223,12 @@ h6 {
 	line-height: 1.5em;
 }
 
+h1 {
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 1.25em;
+}
+
 h1 a,
 h2 a,
 h3 a,
@@ -2317,9 +2323,6 @@ button.alt:hover,
 }
 
 #header header h1 {
-	font-size: 3em;
-	font-weight: 300;
-	line-height: 1.25em;
 	margin-bottom: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	text-shadow: brown 2px 2px 10px;
