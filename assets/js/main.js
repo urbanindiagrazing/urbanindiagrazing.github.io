@@ -53,7 +53,6 @@
 
 		// Update the hidden _subject field
 		$('#_subject').val(subject);
-		console.log("Updated subject:", subject);
 	}
 
 	// Trigger update when any of these fields change
