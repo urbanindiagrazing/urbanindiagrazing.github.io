@@ -1,0 +1,209 @@
+<!-- Navigation Component -->
+<style>
+    /* Hamburger Menu Button */
+    .menu-btn {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background: #2c3e50;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.3s ease;
+    }
+
+    .menu-btn:hover {
+        background: #34495e;
+        transform: scale(1.05);
+    }
+
+    .menu-btn span {
+        width: 28px;
+        height: 3px;
+        background: white;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    /* Transform hamburger to X when menu is open */
+    .menu-btn.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .menu-btn.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-btn.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    /* Fullscreen Navigation Overlay */
+    .nav-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease;
+    }
+
+    .nav-overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Navigation Content */
+    .nav-content {
+        text-align: center;
+        max-width: 800px;
+        padding: 20px;
+    }
+
+    .nav-logo {
+        margin-bottom: 40px;
+        font-size: 2rem;
+        color: white;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+
+    .nav-links {
+        list-style: none;
+    }
+
+    .nav-section {
+        margin-bottom: 40px;
+    }
+
+    .nav-section-title {
+        font-size: 0.9rem;
+        color: #95a5a6;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+
+    .nav-links a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.8rem;
+        padding: 15px 30px;
+        margin: 10px 0;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav-links a::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        transition: left 0.3s ease;
+    }
+
+    .nav-links a:hover::before {
+        left: 0;
+    }
+
+    .nav-links a:hover {
+        transform: translateX(10px);
+        color: #f39c12;
+    }
+
+    /* Social Links */
+    .nav-social {
+        margin-top: 50px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .nav-social a {
+        color: white;
+        font-size: 1.5rem;
+        padding: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-social a:hover {
+        color: #f39c12;
+        transform: scale(1.2);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .nav-links a {
+            font-size: 1.4rem;
+            padding: 12px 20px;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+        }
+
+        .nav-section-title {
+            font-size: 0.8rem;
+        }
+    }
+</style>
+
+<!-- Hamburger Menu Button -->
+<button class="menu-btn" id="menuBtn" aria-label="Open Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<!-- Fullscreen Navigation Overlay -->
+<nav class="nav-overlay" id="navOverlay">
+    <div class="nav-content">
+        <h1 class="nav-logo">The Urban India Grazing Co.</h1>
+
+        <ul class="nav-links">
+            <li class="nav-section">
+                <div class="nav-section-title">Home</div>
+                <a href="index.html#concept">Our Concept</a>
+                <a href="index.html#aboutme">About Me</a>
+                <a href="index.html#faq">Frequently Asked Questions</a>
+                <a href="index.html#contact">Let's Get Started</a>
+            </li>
+
+            <li class="nav-section">
+                <div class="nav-section-title">Menu</div>
+                <a href="menu.html#concept">Packages</a>
+                <a href="menu.html#menu">Grazing Menu</a>
+                <a href="menu.html#faq">Elevated Menu</a>
+                <a href="index.html#contact">Book Your Event</a>
+            </li>
+        </ul>
+
+        <div class="nav-social">
+            <a href="https://www.facebook.com/theurbanindiagrazingco" target="_blank" aria-label="Facebook">📘</a>
+            <a href="https://www.instagram.com/urbanindiaco/" target="_blank" aria-label="Instagram">📷</a>
+            <a href="mailto:katha@urbanindiagrazing.com" aria-label="Email">✉️</a>
+        </div>
+    </div>
+</nav>
