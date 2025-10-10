@@ -2442,32 +2442,43 @@ button.alt:hover,
 	box-shadow: inset 0 0 0 1px #d6d6d6;
 }
 
-/* FAQ */
+/* FAQ and Menu Expansions */
 
-.faq-item {
+details {
 	margin-bottom: 15px;
 	border: 1px solid #e0e0e0;
 	border-radius: 8px;
 	overflow: hidden;
 	transition: all 0.3s ease;
 	text-align: left;
+	transition: box-shadow 0.3s ease;
 }
 
-.faq-item:hover {
+details:hover {
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.faq-content {
-	padding: 20px;
-	background: #f9f9f9;
-	color: #555;
-	animation: slideDown 0.3s ease;
+details[open] {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-@keyframes slideDown {
+summary {
+	cursor: pointer;
+	padding: 0.5em;
+}
+
+details>*:not(summary) {
+	margin-bottom: 0.75em;
+	line-height: 1.5;
+	padding-left: 0.5em;
+	animation: fadeIn 0.5s ease;
+}
+
+/* Optional: subtle fade-in for content */
+@keyframes fadeIn {
 	from {
 		opacity: 0;
-		transform: translateY(-10px);
+		transform: translateY(-20px);
 	}
 
 	to {
@@ -2476,12 +2487,12 @@ button.alt:hover,
 	}
 }
 
-.faq-content ul {
+details ul {
 	margin-left: 20px;
 	margin-top: 10px;
 }
 
-.faq-content li {
+details li {
 	margin-bottom: 8px;
 }
 
