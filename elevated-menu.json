@@ -1,0 +1,1241 @@
+{
+  "menu_title": "Urban India Grazing Menu",
+  "menu_version": "1.0",
+  "currency": "USD",
+  "sections": [
+    {
+      "section_name": "Chaat-Style Appetizers",
+      "slug": "chaat-style-appetizers",
+      "order": 1,
+      "description": "Crisp, colorful, and full of play — India’s street food reimagined for your table.",
+      "menu_items": [
+        {
+          "icon": "🥮",
+          "name": "Papdi Chaat Platter",
+          "slug": "papdi-chaat-platter",
+          "allergens_list": [
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "description": "Crispy papdis layered with spiced potatoes, chutneys, and yogurt — perfectly crunchy and tangy."
+        },
+        {
+          "icon": "🥔",
+          "name": "Aloo Tikki Chaat",
+          "slug": "aloo-tikki-chaat",
+          "allergens_list": [
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Crisp potato patties topped with spiced chickpeas, yogurt, and tamarind drizzle."
+        },
+        {
+          "icon": "🥟",
+          "name": "Samosa Chaat Cups",
+          "slug": "samosa-chaat-cups",
+          "allergens_list": [
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Mini samosas crushed and topped with chutneys and yogurt — bite-sized bliss."
+        },
+        {
+          "icon": "🥭",
+          "name": "Corn & Pineapple Bhel Tartlets",
+          "slug": "corn-pineapple-bhel-tartlets",
+          "allergens_list": [
+            "🌾"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian",
+            "fusion"
+          ],
+          "description": "Sweet corn and pineapple tossed with chaat masala and lime in crisp tart shells."
+        },
+        {
+          "icon": "🥑",
+          "name": "Avocado Chaat Cups",
+          "slug": "avocado-chaat-cups",
+          "allergens_list": [],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "description": "Creamy avocado with chaat spices, lime, and onions — fusion done right."
+        },
+        {
+          "icon": "🍈",
+          "name": "Fruit Chaat Skewers",
+          "slug": "fruit-chaat-skewers",
+          "allergens_list": [
+            "🍯"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian",
+            "sweet"
+          ],
+          "description": "Seasonal fruits dusted with chaat masala and honey-lime drizzle."
+        },
+        {
+          "icon": "🥣",
+          "name": "Dahi Puri Bombs",
+          "slug": "dahi-puri-bombs",
+          "allergens_list": [
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Yogurt-filled puris with tamarind and sev — flavor fireworks."
+        },
+        {
+          "icon": "🍠",
+          "name": "Sweet Potato Chaat Boats",
+          "slug": "sweet-potato-chaat-boats",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Roasted sweet potatoes with spiced yogurt, pomegranate, and masala."
+        },
+        {
+          "icon": "🥜",
+          "name": "Raj Kachori Minis",
+          "slug": "raj-kachori-minis",
+          "allergens_list": [
+            "🥛",
+            "🌾",
+            "🌰"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Stuffed puris with lentils, yogurt, chutneys, and nuts — grand and festive."
+        },
+        {
+          "icon": "🍋",
+          "name": "Phuchka (Pani Puri) Shots",
+          "slug": "phuchka-pani-puri-shots",
+          "allergens_list": [
+            "🌾"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Tangy tamarind water and spiced potato filling — served as edible shooters."
+        }
+      ]
+    },
+    {
+      "section_name": "Vegetarian Appetizers",
+      "slug": "vegetarian-appetizers",
+      "order": 2,
+      "description": "Vibrant, comforting, and crafted for the modern graze.",
+      "menu_items": [
+        {
+          "icon": "🌽",
+          "name": "Corn & Pineapple Chaat Tartlets",
+          "slug": "corn-pineapple-chaat-tartlets",
+          "allergens_list": [
+            "🌾"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Tangy, tropical chaat in buttery tart shells."
+        },
+        {
+          "icon": "🥔",
+          "name": "Baby Dum Aloo",
+          "slug": "baby-dum-aloo",
+          "allergens_list": [
+            "🧈",
+            "🥛",
+            "🌰"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian",
+            "north indian"
+          ],
+          "description": "Tender baby potatoes in creamy cashew-tomato gravy."
+        },
+        {
+          "icon": "🧀",
+          "name": "Tandoori Paneer Bites",
+          "slug": "tandoori-paneer-bites",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Charred paneer cubes marinated in tandoori spice and yogurt."
+        },
+        {
+          "icon": "🥟",
+          "name": "Mini Veg Samosas",
+          "slug": "mini-veg-samosas",
+          "allergens_list": [
+            "🌾"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Golden pastry triangles with spiced potato and peas."
+        },
+        {
+          "icon": "🧅",
+          "name": "Vegetable Pakoras",
+          "slug": "vegetable-pakoras",
+          "allergens_list": [],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "description": "Mixed-vegetable fritters made with chickpea flour."
+        },
+        {
+          "icon": "🧆",
+          "name": "Hara Bhara Kebabs",
+          "slug": "hara-bhara-kebabs",
+          "allergens_list": [
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Spinach and pea patties bound with breadcrumbs and paneer."
+        },
+        {
+          "icon": "🌶️",
+          "name": "Stuffed Banana Pepper Fritters",
+          "slug": "stuffed-banana-pepper-fritters",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Cheese-stuffed banana peppers fried till golden."
+        },
+        {
+          "icon": "🍄",
+          "name": "Garlic & Herb Mushroom Skewers",
+          "slug": "garlic-herb-mushroom-skewers",
+          "allergens_list": [
+            "🧈",
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Grilled mushrooms brushed with garlic butter."
+        },
+        {
+          "icon": "🌽",
+          "name": "Baby Corn Manchurian Bites",
+          "slug": "baby-corn-manchurian-bites",
+          "allergens_list": [
+            "🌾",
+            "🥛"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "vegetarian",
+            "indo-chinese"
+          ],
+          "description": "Crispy baby corn in chili-garlic glaze."
+        },
+        {
+          "icon": "🥣",
+          "name": "Deconstructed Dahi Wada Bites",
+          "slug": "deconstructed-dahi-wada-bites",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Crispy lentil dumplings with yogurt and tamarind drizzle."
+        }
+      ]
+    },
+    {
+      "section_name": "Non-Vegetarian Appetizers",
+      "slug": "non-vegetarian-appetizers",
+      "order": 3,
+      "description": "Bold, flavorful, and celebratory.",
+      "menu_items": [
+        {
+          "icon": "🌮",
+          "name": "Butter Chicken Tartlets",
+          "slug": "butter-chicken-tartlets",
+          "allergens_list": [
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Mini tart shells with creamy butter chicken."
+        },
+        {
+          "icon": "🐔",
+          "name": "Kolkata Chicken Cutlets",
+          "slug": "kolkata-chicken-cutlets",
+          "allergens_list": [
+            "🌾",
+            "🥚"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Crispy chicken patties with mustard and chili."
+        },
+        {
+          "icon": "🐟",
+          "name": "Amritsari Fish Bites",
+          "slug": "amritsari-fish-bites",
+          "allergens_list": [
+            "🐟",
+            "🌾",
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Crispy ajwain-spiced fish fritters with yogurt dip."
+        },
+        {
+          "icon": "🍢",
+          "name": "Chicken Tikka Skewers",
+          "slug": "chicken-tikka-skewers",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Juicy tandoori-spiced chicken brushed with lemon butter."
+        },
+        {
+          "icon": "🍗",
+          "name": "Chettinad Pepper Chicken Cups",
+          "slug": "chettinad-pepper-chicken-cups",
+          "allergens_list": [],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "south indian"
+          ],
+          "description": "Peppery South-Indian chicken served in lettuce cups."
+        },
+        {
+          "icon": "🍤",
+          "name": "Goan Prawn Toasts",
+          "slug": "goan-prawn-toasts",
+          "allergens_list": [
+            "🦐",
+            "🌾",
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Spiced prawn mix on crisp toast with coconut-chili glaze."
+        },
+        {
+          "icon": "🍔",
+          "name": "Mutton Shami Sliders",
+          "slug": "mutton-shami-sliders",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🥚"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Slow-cooked mutton patties with mint yogurt."
+        },
+        {
+          "icon": "🍗",
+          "name": "Malai Chicken Tikka",
+          "slug": "malai-chicken-tikka",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Creamy, cardamom-scented chicken — mild and rich."
+        },
+        {
+          "icon": "🥐",
+          "name": "Spicy Keema Puff Pastries",
+          "slug": "spicy-keema-puff-pastries",
+          "allergens_list": [
+            "🌾",
+            "🥚",
+            "🥛"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Curried minced meat in flaky pastry."
+        }
+      ]
+    },
+    {
+      "section_name": "Main Course Flavor Capsules",
+      "slug": "main-course-flavor-capsules",
+      "order": 4,
+      "description": "Slow-cooked, layered with spice and comfort — our signature curries reimagined for a modern table.",
+      "menu_items": [
+        {
+          "icon": "🍅",
+          "name": "The Classic Butter Masala",
+          "slug": "the-classic-butter-masala",
+          "allergens_list": [
+            "🥛",
+            "🌰"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "signature",
+            "north indian"
+          ],
+          "description": "Creamy tomato gravy simmered with butter, cream, and kasuri methi — indulgent, velvety, and comforting.",
+          "choices": [
+            "Chicken",
+            "Paneer",
+            "Fish"
+          ]
+        },
+        {
+          "icon": "🌶",
+          "name": "The Fiery Chettinad Curry",
+          "slug": "the-fiery-chettinad-curry",
+          "allergens_list": [
+            "🥥",
+            "🦐",
+            "🐟"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "signature",
+            "south indian"
+          ],
+          "description": "A bold South Indian coconut-based curry with roasted spices, curry leaves, and black pepper — smoky, spiced, and soul-satisfying.",
+          "choices": [
+            "Chicken",
+            "Shrimp",
+            "Fish",
+            "Goat",
+            "Lamb"
+          ]
+        },
+        {
+          "icon": "🥥",
+          "name": "The Fresh & Fragrant Coconut Curry",
+          "slug": "the-fresh-fragrant-coconut-curry",
+          "allergens_list": [
+            "🥥",
+            "🦐",
+            "🐟",
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "signature",
+            "coastal"
+          ],
+          "description": "Coastal-inspired curry cooked with fresh coconut milk, green chilies, and ginger — light, aromatic, and gently spiced.",
+          "choices": [
+            "Chicken",
+            "Paneer",
+            "Fish",
+            "Shrimp"
+          ]
+        },
+        {
+          "icon": "🍂",
+          "name": "The Rustic Handi Curry",
+          "slug": "the-rustic-handi-curry",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "signature",
+            "homestyle"
+          ],
+          "description": "A homestyle onion-tomato gravy slow-cooked in earthen-pot style — earthy, rich, and nostalgic.",
+          "choices": [
+            "Chicken",
+            "Goat",
+            "Lamb",
+            "Paneer"
+          ]
+        },
+        {
+          "icon": "🍛",
+          "name": "The Creamy Cashew & Saffron Curry",
+          "slug": "the-creamy-cashew-saffron-curry",
+          "allergens_list": [
+            "🥛",
+            "🌰"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "signature",
+            "mughlai"
+          ],
+          "description": "Luxurious Mughlai-inspired curry made with cashews, saffron, and cardamom — elegant, mild, and regal.",
+          "choices": [
+            "Paneer",
+            "Chicken"
+          ]
+        }
+      ]
+    },
+    {
+      "section_name": "Vegetarian Entrées",
+      "slug": "vegetarian-entrees",
+      "order": 5,
+      "description": "",
+      "menu_items": [
+        {
+          "icon": "🪔",
+          "name": "Dal Makhani",
+          "slug": "dal-makhani",
+          "allergens_list": [
+            "🥛",
+            "🌰"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian",
+            "north indian"
+          ],
+          "description": "Black lentils simmered with butter and cream."
+        },
+        {
+          "icon": "🌿",
+          "name": "Yellow Dal Tadka",
+          "slug": "yellow-dal-tadka",
+          "allergens_list": [
+            "🧈",
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Golden lentils tempered with cumin and garlic."
+        },
+        {
+          "icon": "🧈",
+          "name": "Paneer Butter Masala",
+          "slug": "paneer-butter-masala",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Paneer in creamy tomato sauce with kasuri methi."
+        },
+        {
+          "icon": "🥥",
+          "name": "Navratan Korma",
+          "slug": "navratan-korma",
+          "allergens_list": [
+            "🥛",
+            "🌰"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Mixed vegetables and nuts in saffron-cashew sauce."
+        },
+        {
+          "icon": "🌶️",
+          "name": "Kadhai Paneer",
+          "slug": "kadhai-paneer",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Paneer with peppers, onions, and crushed spices."
+        },
+        {
+          "icon": "🧄",
+          "name": "Lasooni Palak",
+          "slug": "lasooni-palak",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Pureed spinach infused with roasted garlic."
+        },
+        {
+          "icon": "🥕",
+          "name": "Veg Jalfrezi",
+          "slug": "veg-jalfrezi",
+          "allergens_list": [],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Colorful vegetables in tangy tomato-pepper sauce."
+        },
+        {
+          "icon": "🍛",
+          "name": "Methi Malai Mutter",
+          "slug": "methi-malai-mutter",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Green peas and fenugreek in creamy white gravy."
+        },
+        {
+          "icon": "🍚",
+          "name": "Palak Paneer Biryani",
+          "slug": "palak-paneer-biryani",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "description": "Fragrant rice layered with spinach and paneer."
+        },
+        {
+          "icon": "🌶️",
+          "name": "Andhra Veg Biryani",
+          "slug": "andhra-veg-biryani",
+          "allergens_list": [],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "vegetarian",
+            "south indian"
+          ],
+          "description": "Spicy South-Indian vegetable biryani."
+        }
+      ]
+    },
+    {
+      "section_name": "Non-Vegetarian Entrées",
+      "slug": "non-vegetarian-entrees",
+      "order": 6,
+      "description": "",
+      "menu_items": [
+        {
+          "icon": "🥘",
+          "name": "Chicken Dum Biryani",
+          "slug": "chicken-dum-biryani",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Saffron rice with slow-cooked spiced chicken."
+        },
+        {
+          "icon": "🍖",
+          "name": "Mutton Dum Biryani",
+          "slug": "mutton-dum-biryani",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Hyderabadi-style biryani with tender mutton."
+        },
+        {
+          "icon": "🍛",
+          "name": "Mutton Rogan Josh",
+          "slug": "mutton-rogan-josh",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Kashmiri mutton in chili-yogurt gravy."
+        },
+        {
+          "icon": "🧄",
+          "name": "Garlic Butter Chicken Roast",
+          "slug": "garlic-butter-chicken-roast",
+          "allergens_list": [
+            "🧈",
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Pan-roasted chicken with garlic butter glaze."
+        },
+        {
+          "icon": "🌶️",
+          "name": "Andhra Chili Chicken Curry",
+          "slug": "andhra-chili-chicken-curry",
+          "allergens_list": [],
+          "spice_level": [
+            "spicy"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Peppery, fiery chicken curry with curry leaves."
+        },
+        {
+          "icon": "🦐",
+          "name": "Chingri Macher Malai Curry",
+          "slug": "chingri-macher-malai-curry",
+          "allergens_list": [
+            "🥥",
+            "🦐",
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "bengali"
+          ],
+          "description": "Bengali prawns in coconut milk and mustard."
+        },
+        {
+          "icon": "🌴",
+          "name": "Daab Chingri",
+          "slug": "daab-chingri",
+          "allergens_list": [
+            "🦐",
+            "🥥",
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Prawns steamed in tender coconut with mustard gravy."
+        },
+        {
+          "icon": "🐟",
+          "name": "Kerala Fish Moilee",
+          "slug": "kerala-fish-moilee",
+          "allergens_list": [
+            "🥥",
+            "🐟",
+            "🥛"
+          ],
+          "spice_level": [
+            "mild"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Seared fish fillets in coconut-turmeric sauce."
+        },
+        {
+          "icon": "🍋",
+          "name": "Lemon Coriander Chicken Curry",
+          "slug": "lemon-coriander-chicken-curry",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Zesty chicken curry with lemon and coriander."
+        },
+        {
+          "icon": "🚂",
+          "name": "Railway Mutton Curry",
+          "slug": "railway-mutton-curry",
+          "allergens_list": [
+            "🥛"
+          ],
+          "spice_level": [
+            "medium"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "description": "Rustic Anglo-Indian tomato curry."
+        }
+      ]
+    },
+    {
+      "section_name": "Breads & Accompaniments",
+      "slug": "breads-accompaniments",
+      "order": 7,
+      "description": "",
+      "menu_items": [
+        {
+          "icon": "🫓",
+          "name": "Mini Naan",
+          "slug": "mini-naan",
+          "allergens_list": [
+            "🧈",
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [],
+          "tags": [
+            "bread"
+          ],
+          "description": "Soft, buttery flatbread."
+        },
+        {
+          "icon": "🌿",
+          "name": "Garlic Naan Bites",
+          "slug": "garlic-naan-bites",
+          "allergens_list": [
+            "🧈",
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [],
+          "tags": [
+            "bread"
+          ],
+          "description": "Infused with roasted garlic and herbs."
+        },
+        {
+          "icon": "🌾",
+          "name": "Tandoori Roti",
+          "slug": "tandoori-roti",
+          "allergens_list": [
+            "🌾"
+          ],
+          "spice_level": [],
+          "tags": [
+            "bread"
+          ],
+          "description": "Rustic clay-oven whole-wheat bread."
+        },
+        {
+          "icon": "🫔",
+          "name": "Lachha Paratha",
+          "slug": "lachha-paratha",
+          "allergens_list": [
+            "🧈",
+            "🥛",
+            "🌾"
+          ],
+          "spice_level": [],
+          "tags": [
+            "bread"
+          ],
+          "description": "Flaky, layered paratha."
+        },
+        {
+          "icon": "🌴",
+          "name": "Malabar Parotta",
+          "slug": "malabar-parotta",
+          "allergens_list": [
+            "🌾",
+            "🥛"
+          ],
+          "spice_level": [],
+          "tags": [
+            "bread"
+          ],
+          "description": "South-Indian flaky bread."
+        },
+        {
+          "icon": "☁️",
+          "name": "Phulka Minis",
+          "slug": "phulka-minis",
+          "allergens_list": [
+            "🌾"
+          ],
+          "spice_level": [],
+          "tags": [
+            "bread"
+          ],
+          "description": "Soft puffed wheat breads."
+        },
+        {
+          "icon": "🍚",
+          "name": "Plain Ghee Bhaath",
+          "slug": "plain-ghee-bhaath",
+          "allergens_list": [
+            "🧈",
+            "🥛"
+          ],
+          "spice_level": [],
+          "tags": [
+            "rice"
+          ],
+          "description": ""
+        },
+        {
+          "icon": "🌿",
+          "name": "Jeera Rice",
+          "slug": "jeera-rice",
+          "allergens_list": [
+            "🧈",
+            "🥛"
+          ],
+          "spice_level": [],
+          "tags": [
+            "rice"
+          ],
+          "description": ""
+        },
+        {
+          "icon": "💚",
+          "name": "Spinach Rice",
+          "slug": "spinach-rice",
+          "allergens_list": [
+            "🧈",
+            "🥛"
+          ],
+          "spice_level": [],
+          "tags": [
+            "rice"
+          ],
+          "description": ""
+        },
+        {
+          "icon": "👑",
+          "name": "Basanti Pulao",
+          "slug": "basanti-pulao",
+          "allergens_list": [
+            "🧈",
+            "🥛",
+            "🌰"
+          ],
+          "spice_level": [],
+          "tags": [
+            "rice"
+          ],
+          "description": ""
+        }
+      ]
+    },
+    {
+      "section_name": "Desserts — Classics Reimagined",
+      "slug": "desserts-classics-reimagined",
+      "order": 8,
+      "description": "Where Indian nostalgia meets global elegance.",
+      "menu_items": [
+        {
+          "icon": "🍫",
+          "name": "Chocolate Chai Mousse",
+          "slug": "chocolate-chai-mousse",
+          "allergens_list": [
+            "🥛",
+            "🥚"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Dark chocolate mousse infused with masala chai."
+        },
+        {
+          "icon": "🍰",
+          "name": "Bhapa Doi Cheesecake Bites",
+          "slug": "bhapa-doi-cheesecake-bites",
+          "allergens_list": [
+            "🥛",
+            "🥚"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Steamed yogurt cheesecake with saffron and cardamom."
+        },
+        {
+          "icon": "🔥",
+          "name": "Gulab Jamun Crème Brûlée",
+          "slug": "gulab-jamun-creme-brulee",
+          "allergens_list": [
+            "🥛",
+            "🌾",
+            "🥚"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Gulab jamuns nestled in custard with caramelized crust."
+        },
+        {
+          "icon": "💛",
+          "name": "Ras Malai Tiramisu",
+          "slug": "ras-malai-tiramisu",
+          "allergens_list": [
+            "🥛",
+            "🥚"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Saffron ras malai layered with mascarpone cream."
+        },
+        {
+          "icon": "🌹",
+          "name": "Kheer Panna Cotta",
+          "slug": "kheer-panna-cotta",
+          "allergens_list": [
+            "🥛",
+            "🌰",
+            "🥚"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Rice pudding meets panna cotta with pistachio crumble."
+        },
+        {
+          "icon": "💚",
+          "name": "Shrikhand Cannoli",
+          "slug": "shrikhand-cannoli",
+          "allergens_list": [
+            "🥛",
+            "🌾",
+            "🌰",
+            "🥚"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Cannoli shells filled with saffron shrikhand, rolled in pistachio crumbles."
+        },
+        {
+          "icon": "🥕",
+          "name": "Gajar Halwa Tartlets",
+          "slug": "gajar-halwa-tartlets",
+          "allergens_list": [
+            "🥛",
+            "🌰",
+            "🌾",
+            "🥚"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Carrot halwa in buttery tarts with cashew praline."
+        },
+        {
+          "icon": "🥥",
+          "name": "Jaggery Coconut Ice Cream",
+          "slug": "jaggery-coconut-ice-cream",
+          "allergens_list": [
+            "🥥",
+            "🥛"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Coconut-jaggery blend, creamy and tropical."
+        },
+        {
+          "icon": "🧡",
+          "name": "Motichoor Parfait Cups",
+          "slug": "motichoor-parfait-cups",
+          "allergens_list": [
+            "🥛",
+            "🌰",
+            "🥚"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Motichoor ladoo crumble layered with whipped cream."
+        },
+        {
+          "icon": "🍫",
+          "name": "Chocolate Samosas with Salted Caramel",
+          "slug": "chocolate-samosas-salted-caramel",
+          "allergens_list": [
+            "🌾",
+            "🥚",
+            "🥛"
+          ],
+          "spice_level": [],
+          "tags": [
+            "dessert"
+          ],
+          "description": "Crispy pastry triangles filled with molten chocolate and caramel."
+        }
+      ]
+    }
+  ]
+}

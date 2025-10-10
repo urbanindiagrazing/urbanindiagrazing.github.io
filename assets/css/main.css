@@ -2319,13 +2319,21 @@ button.alt:hover,
 #header {
 	position: relative;
 	margin: 0;
-	background-image: url("images/overlay.png"), url("../../images/header.png");
+	background-image: url("images/overlay.png");
 	background-size: auto, cover;
 	background-position: top left, center center;
 	background-repeat: repeat, no-repeat;
 	padding: 14em 0 14em 0;
 	text-align: center;
 	color: #fff;
+}
+
+#header.menupage {
+	background-image: url("images/overlay.png"), url("../../images/header_menu.png");
+}
+
+#header.homepage {
+	background-image: url("images/overlay.png"), url("../../images/header_home.png");
 }
 
 #header header h1 {
@@ -2446,19 +2454,22 @@ button.alt:hover,
 
 details {
 	margin-bottom: 15px;
-	border: 1px solid #e0e0e0;
+	border: 1px solid rgba(128, 128, 128, 0.5);
 	border-radius: 8px;
 	overflow: hidden;
 	transition: all 0.3s ease;
 	text-align: left;
 	transition: box-shadow 0.3s ease;
+	padding: 0.25em;
 }
 
 details:hover {
+	border: 1px solid rgba(255, 255, 255, 0.1);
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 details[open] {
+	border: 1px solid rgba(192, 192, 192, 0.75);
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
