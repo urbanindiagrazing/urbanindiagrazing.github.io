@@ -46,15 +46,19 @@
       return;
     }
 
+    // Function to close menu
+    function closeMenu() {
+      navOverlay.classList.remove('active');
+      menuBtn.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
     // Toggle menu
     menuBtn.addEventListener('click', () => {
       const isActive = navOverlay.classList.contains('active');
 
       if (isActive) {
-        // Close menu
-        navOverlay.classList.remove('active');
-        menuBtn.classList.remove('active');
-        document.body.style.overflow = '';
+        closeMenu();
       } else {
         // Open menu
         navOverlay.classList.add('active');
@@ -66,19 +70,23 @@
     // Close menu when clicking outside
     navOverlay.addEventListener('click', (e) => {
       if (e.target === navOverlay) {
-        navOverlay.classList.remove('active');
-        menuBtn.classList.remove('active');
-        document.body.style.overflow = '';
+        closeMenu();
       }
     });
 
     // Close menu when pressing Escape key
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && navOverlay.classList.contains('active')) {
-        navOverlay.classList.remove('active');
-        menuBtn.classList.remove('active');
-        document.body.style.overflow = '';
+        closeMenu();
       }
+    });
+
+    // Close menu when any navigation link is clicked
+    const navLinks = navOverlay.querySelectorAll('.nav-links a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        closeMenu();
+      });
     });
   }
 })();
