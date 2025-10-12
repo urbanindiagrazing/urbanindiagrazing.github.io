@@ -1863,6 +1863,16 @@ ul.actions.fit.stacked {
 	width: 100%;
 }
 
+/* Blog */
+ul.blog-posts {
+	padding-left: 0;
+	list-style: none;
+}
+
+ul.blog-posts li {
+	margin: 0;
+}
+
 @media screen and (max-width: 1000px) {
 
 	ul.actions {
