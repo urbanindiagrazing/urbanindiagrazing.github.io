@@ -16,7 +16,7 @@
     const footer = document.createElement('footer');
 
     // Fetch and load the navigation component
-    fetch('footer-component.html')
+    fetch('/footer-component.html')
       .then(response => {
         if (!response.ok) {
           throw new Error('Footer component not found');

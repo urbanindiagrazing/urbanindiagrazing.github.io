@@ -20,7 +20,7 @@
     document.body.insertBefore(navContainer, document.body.firstChild);
 
     // Fetch and load the navigation component
-    fetch('nav-component.html')
+    fetch('/nav-component.html')
       .then(response => {
         if (!response.ok) {
           throw new Error('Navigation component not found');

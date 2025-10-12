@@ -89,7 +89,7 @@ async function loadAllergens(jsonFile) {
   return data;
 }
 
-const allergensMap = loadAllergens('allergens.json').then(allergens => {
-  loadMenu('grazing-menu-container', 'grazing-menu.json', allergens);
-  loadMenu('elevated-menu-container', 'elevated-menu.json', allergens);
+const allergensMap = loadAllergens('/allergens.json').then(allergens => {
+  loadMenu('grazing-menu-container', '/grazing-menu.json', allergens);
+  loadMenu('elevated-menu-container', '/elevated-menu.json', allergens);
 });

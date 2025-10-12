@@ -2330,15 +2330,15 @@ button.alt:hover,
 }
 
 #header.menupage {
-	background-image: url("images/overlay.png"), url("../../images/header_menu.png");
+	background-image: url("images/overlay.png"), url("/images/header_menu.png");
 }
 
 #header.homepage {
-	background-image: url("images/overlay.png"), url("../../images/header_home.png");
+	background-image: url("images/overlay.png"), url("/images/header_home.png");
 }
 
 #header.blogpage {
-	background-image: url("images/overlay.png"), url("../../images/header_blog.png");
+	background-image: url("images/overlay.png"), url("/images/header_blog.png");
 }
 
 #header header * {
