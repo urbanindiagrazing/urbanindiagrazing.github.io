@@ -1,26 +1,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://urbanindiagrazing.com/</loc>
+    <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://urbanindiagrazing.com/#contact</loc>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://urbanindiagrazing.com/menu.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://urbanindiagrazing.com/blog.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://urbanindiagrazing.com/blog/what-is-a-grazing-table.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://urbanindiagrazing.com/blog/planning-your-perfect-grazing-table.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 </urlset>
