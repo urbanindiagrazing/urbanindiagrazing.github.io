@@ -15,7 +15,49 @@ async function loadMenu(containerId, jsonFile, allergensMap) {
       sectionSummary.textContent = section.section_name;
       sectionSummary.style.fontSize = '1.5em';
       sectionDetails.appendChild(sectionSummary);
+      
+      // Controls shown when the section is opened: Expand all / Collapse all
+      const controls = document.createElement('div');
+      controls.classList.add('section-controls');
+      controls.style.display = 'none'; // Initially hidden
+      controls.style.margin = '0.5em';
 
+      const expandBtn = document.createElement('button');
+      expandBtn.type = 'button';
+      expandBtn.classList.add('expand-all');
+      expandBtn.textContent = 'Show all descriptions';
+
+      const collapseBtn = document.createElement('button');
+      collapseBtn.type = 'button';
+      collapseBtn.classList.add('collapse-all');
+      collapseBtn.textContent = 'Hide all descriptions';
+      collapseBtn.style.display = 'none'; // Initially hidden
+
+      controls.appendChild(expandBtn);
+      controls.appendChild(collapseBtn);
+      sectionSummary.appendChild(controls);
+
+      // Wire up expand/collapse for all menu items within this section
+      sectionDetails.addEventListener('toggle', () => {
+        if (sectionDetails.open) {
+          controls.style.display = 'inline-block';
+        } else {
+          controls.style.display = 'none';
+        }
+      });
+
+      expandBtn.addEventListener('click', () => {
+        sectionDetails.querySelectorAll('.menu-item').forEach(d => d.open = true);
+        expandBtn.style.display = 'none';
+        collapseBtn.style.display = 'block';
+      });
+
+      collapseBtn.addEventListener('click', () => {
+        sectionDetails.querySelectorAll('.menu-item').forEach(d => d.open = false);
+        expandBtn.style.display = 'block';
+        collapseBtn.style.display = 'none';
+      });
+      
       if (section.description) {
         const desc = document.createElement('p');
         desc.textContent = section.description;
@@ -27,8 +69,27 @@ async function loadMenu(containerId, jsonFile, allergensMap) {
         itemDetails.classList.add('menu-item');
 
         const itemSummary = document.createElement('summary');
-        itemSummary.textContent = `${item.icon} ${item.name}`;
-        itemSummary.style.fontSize = '1.25em';
+
+        // Name block so we can append a small protein badge after it
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = item.name;
+        nameSpan.style.fontSize = '1.25em';
+        itemSummary.appendChild(nameSpan);
+
+        // If a protein_type is provided, show the emoji and use allergensMap for the description tooltip
+        if (item.protein_type) {
+          const proteinSpan = document.createElement('span');
+          proteinSpan.classList.add('protein-type');
+          proteinSpan.textContent = ` ${item.protein_type}`;
+          const desc = allergensMap?.[item.protein_type] || '';
+          if (desc) proteinSpan.title = desc; // tooltip
+          proteinSpan.style.marginLeft = '0.5em';
+          proteinSpan.style.fontSize = '0.95em';
+          proteinSpan.style.opacity = '0.95';
+          proteinSpan.setAttribute('aria-label', desc || item.protein_type);
+          itemSummary.appendChild(proteinSpan);
+        }
+
         itemDetails.appendChild(itemSummary);
 
         const desc = document.createElement('p');
@@ -90,6 +151,5 @@ async function loadAllergens(jsonFile) {
 }
 
 const allergensMap = loadAllergens('/allergens.json').then(allergens => {
-  loadMenu('grazing-menu-container', '/grazing-menu.json', allergens);
-  loadMenu('elevated-menu-container', '/elevated-menu.json', allergens);
+  loadMenu('grazing-menu-container', '/menu.json', allergens);
 });

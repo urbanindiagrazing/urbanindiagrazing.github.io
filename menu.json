@@ -1,0 +1,1386 @@
+{
+  "menu_title": "Urban India Grazing Menu",
+  "menu_version": "2.0",
+  "currency": "USD",
+  "last_updated": "2024-12-22",
+  "sections": [
+    {
+      "section_name": "Chaats",
+      "slug": "chaats",
+      "order": 1,
+      "description": "Crisp, colorful, and full of play — India's street food reimagined for your table.",
+      "menu_items": [
+        {
+          "item_id": "CHAAT001",
+          "icon": "🥣",
+          "name": "Dahi Cloud Bhalla",
+          "slug": "dahi-cloud-bhalla",
+          "description": "Fluffy lentil dumplings in sweet-tangy yogurt & chaat masala magic",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [],
+          "tags": [
+            "vegetarian",
+            "gluten-free",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat001.jpg"
+        },
+        {
+          "item_id": "CHAAT002",
+          "icon": "🧀",
+          "name": "Burrata Chaat Symphony",
+          "slug": "burrata-chaat-symphony",
+          "description": "Creamy burrata with chutneys spice & crunch",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈",
+            "🌰"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat002.jpg"
+        },
+        {
+          "item_id": "CHAAT003",
+          "icon": "🌿",
+          "name": "Crispy Palak Patta Chaat",
+          "slug": "crispy-palak-patta-chaat",
+          "description": "Crispy spinach pakoras layered with yogurt & chutneys",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat003.jpg"
+        },
+        {
+          "item_id": "CHAAT004",
+          "icon": "🥟",
+          "name": "Mini Samosa Smash Chaat",
+          "slug": "mini-samosa-smash-chaat",
+          "description": "Crushed samosas with chickpeas chutneys & masala",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat004.jpg"
+        },
+        {
+          "item_id": "CHAAT005",
+          "icon": "🍮",
+          "name": "Chaat Trifle Cups",
+          "slug": "chaat-trifle-cups",
+          "description": "Layered yogurt potatoes chickpeas & chutneys in a stylish parfait",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat005.jpg"
+        },
+        {
+          "item_id": "CHAAT006",
+          "icon": "🥔",
+          "name": "Aloo Tikki Street Stack",
+          "slug": "aloo-tikki-street-stack",
+          "description": "Golden tikkis topped with yogurt & spice",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat006.jpg"
+        },
+        {
+          "item_id": "CHAAT007",
+          "icon": "🫘",
+          "name": "Bengali Ghugni Delight",
+          "slug": "bengali-ghugni-delight",
+          "description": "White peas in tangy masala with onions & lime",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🌿",
+          "allergens_list": [],
+          "tags": [
+            "vegan",
+            "gluten-free",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat007.jpg"
+        },
+        {
+          "item_id": "CHAAT008",
+          "icon": "🥑",
+          "name": "Avocado Bhel Fusion",
+          "slug": "avocado-bhel-fusion",
+          "description": "Creamy avocado meets classic bhel crunch",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🌰"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat008.jpg"
+        },
+        {
+          "item_id": "CHAAT009",
+          "icon": "🍋",
+          "name": "Kolkata Phuchka Shots",
+          "slug": "kolkata-phuchka-shots",
+          "description": "Crispy puris with tangy masala water & potato",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat009.jpg"
+        },
+        {
+          "item_id": "CHAAT010",
+          "icon": "🥜",
+          "name": "Dabeli Platter Royale",
+          "slug": "dabeli-platter-royale",
+          "description": "Spiced potato peanuts & pomegranate wrapped in soft pav",
+          "price": 6.0,
+          "unit_of_measure": "5-oz serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🌰"
+          ],
+          "tags": [
+            "vegetarian",
+            "street food"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat010.jpg"
+        }
+      ]
+    },
+    {
+      "section_name": "Appetizers",
+      "slug": "appetizers",
+      "order": 2,
+      "description": "Vibrant, comforting, and crafted for the modern graze.",
+      "menu_items": [
+        {
+          "item_id": "APP-V001",
+          "icon": "🥮",
+          "name": "Kolkata Veggie Chop Pops",
+          "slug": "kolkata-veggie-chop-pops",
+          "description": "Beetroot-veg cutlets with sweet-spicy crunch",
+          "price": 6.0,
+          "unit_of_measure": "Each",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v001.jpg"
+        },
+        {
+          "item_id": "APP-V002",
+          "icon": "🧀",
+          "name": "Thecha Paneer Fired Bites",
+          "slug": "thecha-paneer-fired-bites",
+          "description": "Paneer tossed in bold spicy Maharashtrian thecha",
+          "price": 35.0,
+          "unit_of_measure": "Dozen skewers",
+          "each_multiple": 12,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v002.jpg"
+        },
+        {
+          "item_id": "APP-V003",
+          "icon": "🧀",
+          "name": "Paneer Tartlet Blossoms",
+          "slug": "paneer-tartlet-blossoms",
+          "description": "Mini tart shells filled with creamy paneer masala",
+          "price": 60.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v003.jpg"
+        },
+        {
+          "item_id": "APP-V004",
+          "icon": "🧀",
+          "name": "Paneer Walnut Galouti Kabab",
+          "slug": "paneer-walnut-galouti-kabab",
+          "description": "Melt-in-mouth paneer kababs with walnut richness",
+          "price": 60.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈",
+            "🌰"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v004.jpg"
+        },
+        {
+          "item_id": "APP-V005",
+          "icon": "🧆",
+          "name": "Veg Laal Kabab Flames",
+          "slug": "veg-laal-kabab-flames",
+          "description": "Fiery red beetroot kababs with smoky notes",
+          "price": 50.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🌿",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegan"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v005.jpg"
+        },
+        {
+          "item_id": "APP-V006",
+          "icon": "🧆",
+          "name": "Hara Bhara Emerald Kabab",
+          "slug": "hara-bhara-emerald-kabab",
+          "description": "Spinach-pea kababs with soft herby centers",
+          "price": 50.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🌿",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegan"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v006.jpg"
+        },
+        {
+          "item_id": "APP-V007",
+          "icon": "⚪",
+          "name": "Mini Podi Idli Skewers",
+          "slug": "mini-podi-idli-skewers",
+          "description": "Soft mini idlis tossed in podi & ghee",
+          "price": 42.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🥕",
+          "allergens_list": [],
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v007.jpg"
+        },
+        {
+          "item_id": "APP-V008",
+          "icon": "⚪",
+          "name": "Mini Paniyaram Skewers",
+          "slug": "mini-paniyaram-skewers",
+          "description": "Crispy fluffy paniyarams with chutney drizzle",
+          "price": 42.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v008.jpg"
+        },
+        {
+          "item_id": "APP-NV001",
+          "icon": "🦐",
+          "name": "Kolkata Shrimp Chop Pops",
+          "slug": "kolkata-shrimp-chop-pops",
+          "description": "Crispy shrimp cutlets with mustard-chili warmth",
+          "price": 7.0,
+          "unit_of_measure": "Each",
+          "each_multiple": 1,
+          "protein_type": "🦐",
+          "allergens_list": [
+            "🌾",
+            "🦐"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv001.jpg"
+        },
+        {
+          "item_id": "APP-NV002",
+          "icon": "🐟",
+          "name": "Kolkata Fish Cutlet Sticks",
+          "slug": "kolkata-fish-cutlet-sticks",
+          "description": "Crispy spiced fish fillets Calcutta style",
+          "price": 8.0,
+          "unit_of_measure": "Each",
+          "each_multiple": 1,
+          "protein_type": "🐟",
+          "allergens_list": [
+            "🌾",
+            "🐟"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv002.jpg"
+        },
+        {
+          "item_id": "APP-NV003",
+          "icon": "🍢",
+          "name": "Keema Egg Rolls",
+          "slug": "keema-egg-rolls",
+          "description": "Crispy egg rolls filled with keema masala",
+          "price": 50.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🥚",
+          "allergens_list": [
+            "🌾",
+            "🥚"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv003.jpg"
+        },
+        {
+          "item_id": "APP-NV004",
+          "icon": "🦐",
+          "name": "Kolhapuri Shrimp Cocktail Shots",
+          "slug": "kolhapuri-shrimp-cocktail-shots",
+          "description": "Fiery shrimp with smoky Kolhapuri spices",
+          "price": 8.0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "🦐",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈",
+            "🦐"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv004.jpg"
+        },
+        {
+          "item_id": "APP-NV005",
+          "icon": "🍗",
+          "name": "Malai Silk Chicken Bites",
+          "slug": "malai-silk-chicken-bites",
+          "description": "Soft creamy chicken with lemon butter glaze",
+          "price": 60.0,
+          "unit_of_measure": "Dozen skewers",
+          "each_multiple": 12,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈",
+            "🍖"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv005.jpg"
+        },
+        {
+          "item_id": "APP-NV006",
+          "icon": "🍢",
+          "name": "Keema Puff Parcels",
+          "slug": "keema-puff-parcels",
+          "description": "Flaky pastry envelopes filled with spicy minced meat",
+          "price": 60.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🌾",
+            "🍖"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv006.jpg"
+        },
+        {
+          "item_id": "APP-NV007",
+          "icon": "🐟",
+          "name": "Rava Masala Fish Bites",
+          "slug": "rava-masala-fish-bites",
+          "description": "Semolina-crusted fish infused with curry leaf and lemon",
+          "price": 50.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🐟",
+          "allergens_list": [
+            "🌾",
+            "🐟"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv007.jpg"
+        },
+        {
+          "item_id": "APP-NV008",
+          "icon": "🍖",
+          "name": "Royal Ember Mutton Chops",
+          "slug": "royal-ember-mutton-chops",
+          "description": "Smoky spice-crusted goat chops finished with a squeeze of lemon",
+          "price": 8.0,
+          "unit_of_measure": "Each",
+          "each_multiple": 1,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🌾",
+            "🍖"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv008.jpg"
+        }
+      ]
+    },
+    {
+      "section_name": "Bread & Roti",
+      "slug": "bread-and-roti",
+      "order": 99,
+      "description": "",
+      "menu_items": [
+        {
+          "item_id": "BREAD-V001",
+          "icon": "🍽️",
+          "name": "Mumbai Pav Bhaji Buns",
+          "slug": "mumbai-pav-bhaji-buns",
+          "description": "Soft buns filled with rich velvety bhaji",
+          "price": 70.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🌿",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v001.jpg"
+        },
+        {
+          "item_id": "BREAD-V002",
+          "icon": "🍽️",
+          "name": "Vada Bao Fusion",
+          "slug": "vada-bao-fusion",
+          "description": "Crispy vada tucked into a bao with chutney drizzle",
+          "price": 70.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🌿",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v002.jpg"
+        },
+        {
+          "item_id": "BREAD-V003",
+          "icon": "🍽️",
+          "name": "Paneer Kathi Rolls",
+          "slug": "paneer-kathi-rolls",
+          "description": "Paneer tikka onions & chutneys wrapped in soft paratha",
+          "price": 14.0,
+          "unit_of_measure": "Roll (cut in half)",
+          "each_multiple": 1,
+          "protein_type": "🌿",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v003.jpg"
+        },
+        {
+          "item_id": "BREAD-V004",
+          "icon": "🍽️",
+          "name": "Desi Focaccia Bread",
+          "slug": "desi-focaccia-bread",
+          "description": "Italian focaccia infused with Indian spices",
+          "price": 100.0,
+          "unit_of_measure": "Tray",
+          "each_multiple": 1,
+          "protein_type": "🌿",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v004.jpg"
+        },
+        {
+          "item_id": "BREAD-V005",
+          "icon": "🍽️",
+          "name": "Butter / Garlic Naan Petals",
+          "slug": "butter-/-garlic-naan-petals",
+          "description": "Mini naans brushed with herb butter",
+          "price": 2.0,
+          "unit_of_measure": "Each",
+          "each_multiple": 1,
+          "protein_type": "🌿",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v005.jpg"
+        },
+        {
+          "item_id": "BREAD-V006",
+          "icon": "🍽️",
+          "name": "Masala Aloo Kulcha Pockets",
+          "slug": "masala-aloo-kulcha-pockets",
+          "description": "Kulchas filled with spiced potato",
+          "price": 4.0,
+          "unit_of_measure": "Each",
+          "each_multiple": 1,
+          "protein_type": "🌿",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v006.jpg"
+        },
+        {
+          "item_id": "BREAD-NV001",
+          "icon": "🍽️",
+          "name": "Keema Masala Bun",
+          "slug": "keema-masala-bun",
+          "description": "Fluffy buns stuffed with aromatic minced meat",
+          "price": 90.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🌾",
+            "🍖"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-nv001.jpg"
+        },
+        {
+          "item_id": "BREAD-NV002",
+          "icon": "🍽️",
+          "name": "Kolkata Egg Kathi Rolls",
+          "slug": "kolkata-egg-kathi-rolls",
+          "description": "Egg-coated paratha rolled with spiced fillings",
+          "price": 10.0,
+          "unit_of_measure": "Roll",
+          "each_multiple": 1,
+          "protein_type": "🥚",
+          "allergens_list": [
+            "🌾",
+            "🥚"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-nv002.jpg"
+        },
+        {
+          "item_id": "BREAD-NV003",
+          "icon": "🍽️",
+          "name": "Kolkata Chicken & Egg Kathi Rolls",
+          "slug": "kolkata-chicken-and-egg-kathi-rolls",
+          "description": "Juicy chicken & egg wrapped in flaky paratha",
+          "price": 14.0,
+          "unit_of_measure": "Roll",
+          "each_multiple": 1,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🌾"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-nv003.jpg"
+        },
+        {
+          "item_id": "BREAD-NV004",
+          "icon": "🍽️",
+          "name": "Kolkata Mutton Kathi Rolls",
+          "slug": "kolkata-mutton-kathi-rolls",
+          "description": "Spiced mutton in buttery layered paratha",
+          "price": 16.0,
+          "unit_of_measure": "Roll",
+          "each_multiple": 1,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🌾",
+            "🍖"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "bread"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-nv004.jpg"
+        }
+      ]
+    },
+    {
+      "section_name": "Entrees",
+      "slug": "entrees",
+      "order": 99,
+      "description": "",
+      "menu_items": [
+        {
+          "item_id": "ENT-V001",
+          "icon": "🍽️",
+          "name": "Paneer Kofta Biryani Royale",
+          "slug": "paneer-kofta-biryani-royale",
+          "description": "Creamy paneer koftas layered with saffron basmati",
+          "price": 120.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v001.jpg"
+        },
+        {
+          "item_id": "ENT-V002",
+          "icon": "🍽️",
+          "name": "Palak Paneer Biryani Harmony",
+          "slug": "palak-paneer-biryani-harmony",
+          "description": "Spinach-paneer masala layered with herbed rice",
+          "price": 120.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v002.jpg"
+        },
+        {
+          "item_id": "ENT-V003",
+          "icon": "🍽️",
+          "name": "Palak Paneer Lasagna Layers",
+          "slug": "palak-paneer-lasagna-layers",
+          "description": "Spinach-paneer bechamel baked into cheesy lasagna",
+          "price": 120.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v003.jpg"
+        },
+        {
+          "item_id": "ENT-V004",
+          "icon": "🍽️",
+          "name": "Mushroom Ghee Roast Masala",
+          "slug": "mushroom-ghee-roast-masala",
+          "description": "Assorted mushrooms in fiery roasted ghee masala",
+          "price": 120.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [],
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v004.jpg"
+        },
+        {
+          "item_id": "ENT-V005",
+          "icon": "🍽️",
+          "name": "Raw Banana Kofta Curry",
+          "slug": "raw-banana-kofta-curry",
+          "description": "Green banana koftas in a tomato-cashew gravy",
+          "price": 120.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌰"
+          ],
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v005.jpg"
+        },
+        {
+          "item_id": "ENT-V006",
+          "icon": "🍽️",
+          "name": "Saag Burrata Indulgence",
+          "slug": "saag-burrata-indulgence",
+          "description": "Silky saag topped with creamy burrata",
+          "price": 120.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v006.jpg"
+        },
+        {
+          "item_id": "ENT-NV001",
+          "icon": "🍽️",
+          "name": "Chicken Kofta Biryani Feast",
+          "slug": "chicken-kofta-biryani-feast",
+          "description": "Juicy chicken koftas in fragrant biryani rice",
+          "price": 130.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🍖",
+          "allergens_list": [],
+          "tags": [
+            "non-vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv001.jpg"
+        },
+        {
+          "item_id": "ENT-NV002",
+          "icon": "🍽️",
+          "name": "Mutton Kofta Biryani Legacy",
+          "slug": "mutton-kofta-biryani-legacy",
+          "description": "A regal biryani with rich spiced mutton koftas",
+          "price": 160.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🍖"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv002.jpg"
+        },
+        {
+          "item_id": "ENT-NV003",
+          "icon": "🍽️",
+          "name": "Butter Chicken Lasagna Fusion",
+          "slug": "butter-chicken-lasagna-fusion",
+          "description": "Butter chicken baked into cheesy lasagna sheets",
+          "price": 130.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv003.jpg"
+        },
+        {
+          "item_id": "ENT-NV004",
+          "icon": "🍽️",
+          "name": "Chicken Ghee Roast Masala",
+          "slug": "chicken-ghee-roast-masala",
+          "description": "Tangy smoky spicy roasted chicken masala",
+          "price": 130.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🍖",
+          "allergens_list": [],
+          "tags": [
+            "non-vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv004.jpg"
+        },
+        {
+          "item_id": "ENT-NV005",
+          "icon": "🍽️",
+          "name": "Mutton Ghee Roast Flames",
+          "slug": "mutton-ghee-roast-flames",
+          "description": "Slow-cooked mutton glazed in rich ghee masala",
+          "price": 170.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🍖",
+          "allergens_list": [
+            "🍖"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv005.jpg"
+        },
+        {
+          "item_id": "ENT-NV006",
+          "icon": "🍽️",
+          "name": "Shrimp Ghee Roast Fire",
+          "slug": "shrimp-ghee-roast-fire",
+          "description": "Bold South Indian spices coating tender shrimp",
+          "price": 160.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🦐",
+          "allergens_list": [
+            "🦐"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv006.jpg"
+        },
+        {
+          "item_id": "ENT-NV007",
+          "icon": "🍽️",
+          "name": "Shrimp Malai Curry",
+          "slug": "shrimp-malai-curry",
+          "description": "Creamy coconut-mustard gravy with shrimp",
+          "price": 160.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🦐",
+          "allergens_list": [
+            "🌾",
+            "🥛",
+            "🧈",
+            "🦐"
+          ],
+          "tags": [
+            "non-vegetarian"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv007.jpg"
+        },
+        {
+          "item_id": "ENT-NV008",
+          "icon": "🍽️",
+          "name": "Shrimp Tender Coconut Curry",
+          "slug": "shrimp-tender-coconut-curry",
+          "description": "A light coastal-style coconut curry",
+          "price": 160.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🦐",
+          "allergens_list": [
+            "🦐"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv008.jpg"
+        },
+        {
+          "item_id": "ENT-NV009",
+          "icon": "🍽️",
+          "name": "Kerala Kokum Fish Curry",
+          "slug": "kerala-kokum-fish-curry",
+          "description": "Tangy kokum & coconut curry with curry leaves",
+          "price": 160.0,
+          "unit_of_measure": "Half tray",
+          "each_multiple": 1,
+          "protein_type": "🐟",
+          "allergens_list": [
+            "🐟"
+          ],
+          "tags": [
+            "non-vegetarian",
+            "gluten-free"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv009.jpg"
+        }
+      ]
+    },
+    {
+      "section_name": "Desserts",
+      "slug": "desserts",
+      "order": 7,
+      "description": "Where Indian nostalgia meets global elegance.",
+      "menu_items": [
+        {
+          "item_id": "DESS001",
+          "icon": "🍮",
+          "name": "Masala Chai Tiramisu Hug",
+          "slug": "masala-chai-tiramisu-hug",
+          "description": "Chai-soaked ladyfingers layered with cardamom cream",
+          "price": 8.0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess001.jpg"
+        },
+        {
+          "item_id": "DESS002",
+          "icon": "🍮",
+          "name": "Mango Lassi Tiramisu Glow",
+          "slug": "mango-lassi-tiramisu-glow",
+          "description": "Mango puree yogurt cream & biscuits",
+          "price": 8.0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess002.jpg"
+        },
+        {
+          "item_id": "DESS003",
+          "icon": "💛",
+          "name": "Ras Malai Tiramisu Dream",
+          "slug": "ras-malai-tiramisu-dream",
+          "description": "Saffron milk + ras malai + mascarpone",
+          "price": 8.0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess003.jpg"
+        },
+        {
+          "item_id": "DESS004",
+          "icon": "💚",
+          "name": "Shrikhand Tiramisu Fusion",
+          "slug": "shrikhand-tiramisu-fusion",
+          "description": "Shrikhand meets espresso-soaked biscuits",
+          "price": 8.0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess004.jpg"
+        },
+        {
+          "item_id": "DESS005",
+          "icon": "💚",
+          "name": "Pistachio Shrikhand Cannoli",
+          "slug": "pistachio-shrikhand-cannoli",
+          "description": "Crispy cannoli filled with saffron shrikhand",
+          "price": 25.0,
+          "unit_of_measure": "Dozen mini",
+          "each_multiple": 12,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈",
+            "🌰"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess005.jpg"
+        },
+        {
+          "item_id": "DESS006",
+          "icon": "💚",
+          "name": "Shrikhand Cupcake Blossoms",
+          "slug": "shrikhand-cupcake-blossoms",
+          "description": "Light cupcakes topped with shrikhand frosting",
+          "price": 35.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈",
+            "🌰"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess006.jpg"
+        },
+        {
+          "item_id": "DESS007",
+          "icon": "🍮",
+          "name": "Coffee Rasgulla Parfait",
+          "slug": "coffee-rasgulla-parfait",
+          "description": "Espresso-soaked rasgulla topped with coffee cream",
+          "price": 6.0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess007.jpg"
+        },
+        {
+          "item_id": "DESS008",
+          "icon": "🔥",
+          "name": "Gulab Jamun Trifle Glow",
+          "slug": "gulab-jamun-trifle-glow",
+          "description": "Cake jamuns rose cream & syrup",
+          "price": 6.0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess008.jpg"
+        },
+        {
+          "item_id": "DESS009",
+          "icon": "🔥",
+          "name": "Gulab Jamun Cupcake Gulabo",
+          "slug": "gulab-jamun-cupcake-gulabo",
+          "description": "Rose-cardamom cupcakes topped with jamun",
+          "price": 35.0,
+          "unit_of_measure": "Dozen",
+          "each_multiple": 12,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess009.jpg"
+        },
+        {
+          "item_id": "DESS010",
+          "icon": "🌹",
+          "name": "Saffron Kheer Brulee",
+          "slug": "saffron-kheer-brulee",
+          "description": "Silky kheer with bruleed top & citrus zest",
+          "price": 3.0,
+          "unit_of_measure": "Mini (3 oz)",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🧈"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess010.jpg"
+        }
+      ]
+    },
+    {
+      "section_name": "Beverages",
+      "slug": "beverages",
+      "order": 99,
+      "description": "",
+      "menu_items": [
+        {
+          "item_id": "BEV001",
+          "icon": "🍽️",
+          "name": "Mocktail Style Drinks",
+          "slug": "mocktail-style-drinks",
+          "description": "Any mocktail style drinks",
+          "price": 5.0,
+          "unit_of_measure": "Per guest, 8 oz",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [
+            "beverage"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/bev001.jpg"
+        }
+      ]
+    },
+    {
+      "section_name": "Decor & Service",
+      "slug": "decor-service",
+      "order": 99,
+      "description": "",
+      "menu_items": [
+        {
+          "item_id": "ARR001",
+          "icon": "🍽️",
+          "name": "Floral Arrangements - Medium",
+          "slug": "floral-arrangements---medium",
+          "description": "Medium sized personalized bouquets",
+          "price": 100.0,
+          "unit_of_measure": "Each",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr001.jpg"
+        },
+        {
+          "item_id": "ARR002",
+          "icon": "🍽️",
+          "name": "Floral Arrangements - Large",
+          "slug": "floral-arrangements---large",
+          "description": "Large sized personalized bouquets",
+          "price": 200.0,
+          "unit_of_measure": "Each",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr002.jpg"
+        },
+        {
+          "item_id": "ARR003",
+          "icon": "🍽️",
+          "name": "Custom Themed Table Decor",
+          "slug": "custom-themed-table-decor",
+          "description": "Custom themed table decoration",
+          "price": 0.0,
+          "unit_of_measure": "15% of food cost",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr003.jpg"
+        },
+        {
+          "item_id": "ARR004",
+          "icon": "🍽️",
+          "name": "Premium Glassware & Silverware",
+          "slug": "premium-glassware-and-silverware",
+          "description": "Champagne glasses, single use high quality silverware plates forks spoons and napkins",
+          "price": 3.0,
+          "unit_of_measure": "Per guest",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr004.jpg"
+        },
+        {
+          "item_id": "ARR005",
+          "icon": "🍽️",
+          "name": "Wait-Staff Service",
+          "slug": "wait-staff-service",
+          "description": "Professional wait staff service",
+          "price": 50.0,
+          "unit_of_measure": "Per staff per hour",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr005.jpg"
+        },
+        {
+          "item_id": "ARR006",
+          "icon": "🍽️",
+          "name": "Delivery Charges",
+          "slug": "delivery-charges",
+          "description": "Additional delivery charges outside 5 mile radius from Lakeview",
+          "price": 0.0,
+          "unit_of_measure": "Variable",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr006.jpg"
+        },
+        {
+          "item_id": "ARR007",
+          "icon": "🍽️",
+          "name": "Full Table Setup",
+          "slug": "full-table-setup",
+          "description": "Complete table setup included in pricing",
+          "price": 0.0,
+          "unit_of_measure": "Included",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr007.jpg"
+        },
+        {
+          "item_id": "ARR008",
+          "icon": "🍽️",
+          "name": "Food Risers & Table Styling",
+          "slug": "food-risers-and-table-styling",
+          "description": "Food risers and basic table styling",
+          "price": 0.0,
+          "unit_of_measure": "Included",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr008.jpg"
+        },
+        {
+          "item_id": "ARR009",
+          "icon": "🍽️",
+          "name": "Menu Card & Item Labels",
+          "slug": "menu-card-and-item-labels",
+          "description": "Menu cards and item labels for buffet",
+          "price": 0.0,
+          "unit_of_measure": "Included",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [],
+          "tags": [],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr009.jpg"
+        }
+      ]
+    }
+  ]
+}
