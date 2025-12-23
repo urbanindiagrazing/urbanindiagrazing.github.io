@@ -7,6 +7,11 @@ async function loadMenu(containerId, jsonFile, allergensMap) {
 
     container.innerHTML = ''; // clear loading text
 
+    // Determine whether prices should be shown via query param `showprices`
+    const urlParams = new URLSearchParams(window.location.search);
+    const _showpricesParam = (urlParams.get('showprices') || '').toLowerCase();
+    const showPricesEnabled = _showpricesParam === 'true' || _showpricesParam === '1';
+
     data.sections.forEach(section => {
       const sectionDetails = document.createElement('details');
       sectionDetails.classList.add('section');
@@ -83,11 +88,22 @@ async function loadMenu(containerId, jsonFile, allergensMap) {
           proteinSpan.textContent = ` ${item.protein_type}`;
           const desc = allergensMap?.[item.protein_type] || '';
           if (desc) proteinSpan.title = desc; // tooltip
-          proteinSpan.style.marginLeft = '0.5em';
-          proteinSpan.style.fontSize = '0.95em';
-          proteinSpan.style.opacity = '0.95';
           proteinSpan.setAttribute('aria-label', desc || item.protein_type);
           itemSummary.appendChild(proteinSpan);
+        }
+
+        // Price: show only when the query parameter `showprices` is true (or 1)
+        if (showPricesEnabled && (item.price !== undefined && item.price !== null)) {
+          const priceSpan = document.createElement('span');
+          priceSpan.classList.add('price');
+          // Format price using the menu currency if available
+          let priceText = "";
+          if (typeof item.price === 'string') priceText = item.price;
+          if (typeof item.price === 'number' && item.price > 0) priceText = `\$ ${item.price}`;
+          if (priceText && item.unit_of_measure) priceText += ` / `;
+          if (item.unit_of_measure) priceText += item.unit_of_measure;
+          priceSpan.textContent = priceText;
+          itemSummary.appendChild(priceSpan);
         }
 
         itemDetails.appendChild(itemSummary);

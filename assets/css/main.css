@@ -152,6 +152,22 @@ textarea {
 	appearance: none;
 }
 
+/* Pricing */
+
+.protein-type {
+    margin: '0.5em';
+    font-size: '0.95em';
+    opacity: '0.95';
+}
+
+.price {
+	margin: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	font-weight: normal;
+	opacity: 0.95;
+}
+
 /* Basic */
 
 @-ms-viewport {
