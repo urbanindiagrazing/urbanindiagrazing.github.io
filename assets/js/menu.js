@@ -1,6 +1,10 @@
 
 async function loadMenu(containerId, jsonFile, allergensMap) {
   const container = document.getElementById(containerId);
+  if (!container) {
+    return;
+  }
+
   try {
     const response = await fetch(jsonFile);
     const data = await response.json();
@@ -167,5 +171,6 @@ async function loadAllergens(jsonFile) {
 }
 
 const allergensMap = loadAllergens('/allergens.json').then(allergens => {
-  loadMenu('grazing-menu-container', '/menu.json', allergens);
+  loadMenu('grazing-menu-container', '/grazing-menu.json', allergens);
+  loadMenu('supper-club-menu-container', '/supper-club-menu.json', allergens);
 });

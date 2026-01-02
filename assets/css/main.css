@@ -2366,6 +2366,10 @@ button.alt:hover,
 	background-image: url("images/overlay.png"), url("/images/header_home.png");
 }
 
+#header.supperclubpage {
+	background-image: url("images/overlay.png"), url("/images/header-spread2.png");
+}
+
 #header.blogpage {
 	background-image: url("images/overlay.png"), url("/images/header_blog.png");
 }

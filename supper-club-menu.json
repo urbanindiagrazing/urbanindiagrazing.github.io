@@ -1,0 +1,298 @@
+{
+  "menu_title": "January Winter Supper Club",
+  "menu_version": "1.0",
+  "currency": "USD",
+  "last_updated": "2025-01-02",
+  "sections": [
+    {
+      "section_name": "Canapés & Starters",
+      "slug": "canapes-starters",
+      "order": 1,
+      "description": "Winter warmers and bold bites to start your evening",
+      "menu_items": [
+        {
+          "item_id": "SC-START001",
+          "icon": "🥟",
+          "name": "Samosa Chaat Bites",
+          "slug": "samosa-chaat-bites",
+          "description": "Samosa filling on crispy tart shells, topped with chutneys and spices — bite-sized and irresistible",
+          "price": 0,
+          "unit_of_measure": "Piece",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🥛",
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian",
+            "starter"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start001.jpg"
+        },
+        {
+          "item_id": "SC-START002",
+          "icon": "🌿",
+          "name": "Arugula Chaat Cups",
+          "slug": "arugula-chaat-cups",
+          "description": "Peppery arugula pakora tossed with chutneys, sev, and citrus — fresh, crunchy, tangy",
+          "price": 0,
+          "unit_of_measure": "Piece",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛"
+          ],
+          "tags": [
+            "vegetarian",
+            "starter"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start002.jpg"
+        },
+        {
+          "item_id": "SC-START003",
+          "icon": "🍗",
+          "name": "Chettinad Chicken Popcorn",
+          "slug": "chettinad-chicken-popcorn",
+          "description": "Crispy chicken bites tossed in spiced Chettinad masala — crunchy, juicy, snackable",
+          "price": 0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "🍗",
+          "allergens_list": [
+            "🌾",
+            "🥚",
+            "🥛"
+          ],
+          "tags": [
+            "chicken",
+            "starter"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start003.jpg"
+        },
+        {
+          "item_id": "SC-START004",
+          "icon": "🦐",
+          "name": "Kolhapuri Shrimp Cocktail",
+          "slug": "kolhapuri-shrimp-cocktail",
+          "description": "Bold, smoky, spicy shrimp with an Indian twist on cocktail sauce",
+          "price": 0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "🦐",
+          "allergens_list": [
+            "🦐",
+            "🥛"
+          ],
+          "tags": [
+            "seafood",
+            "shellfish",
+            "starter"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start004.jpg"
+        },
+        {
+          "item_id": "SC-START005",
+          "icon": "🥔",
+          "name": "Aloo Tikki Sliders",
+          "slug": "aloo-tikki-sliders",
+          "description": "Spiced potato patties tucked into soft buns with chutneys and slaw",
+          "price": 0,
+          "unit_of_measure": "Piece",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🌾",
+            "🥛"
+          ],
+          "tags": [
+            "vegetarian",
+            "starter"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start005.jpg"
+        },
+        {
+          "item_id": "SC-START006",
+          "icon": "🍲",
+          "name": "Hyderabadi Marag with Desi Focaccia Bites",
+          "slug": "hyderabadi-marag-focaccia",
+          "description": "Slow-simmered, aromatic mutton soup served with soft Indian-inspired focaccia",
+          "price": 0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "🐑",
+          "allergens_list": [
+            "🌾",
+            "🥛"
+          ],
+          "tags": [
+            "lamb",
+            "soup",
+            "starter"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start006.jpg"
+        },
+        {
+          "item_id": "SC-START007",
+          "icon": "🌽",
+          "name": "Coconut Shorba with Roasted Corn + Focaccia Bites",
+          "slug": "coconut-shorba-focaccia",
+          "description": "Silky coconut soup with sweet corn and gentle spice — winter comfort in a cup",
+          "price": 0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🥥",
+            "🌾"
+          ],
+          "tags": [
+            "vegetarian",
+            "soup",
+            "starter"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start007.jpg"
+        },
+        {
+          "item_id": "SC-START008",
+          "icon": "🧀",
+          "name": "Paneer Bhurji Puff Pastries",
+          "slug": "paneer-bhurji-puff-pastries",
+          "description": "Flaky pastry filled with spiced paneer scramble — buttery and addictive",
+          "price": 0,
+          "unit_of_measure": "Piece",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🥛",
+            "🌾",
+            "🥚"
+          ],
+          "tags": [
+            "vegetarian",
+            "starter"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start008.jpg"
+        }
+      ]
+    },
+    {
+      "section_name": "Mains",
+      "slug": "mains",
+      "order": 2,
+      "description": "Hearty, warming dishes for a winter feast",
+      "menu_items": [
+        {
+          "item_id": "SC-MAIN001",
+          "icon": "🧀",
+          "name": "Palak Burrata with Dill Rice",
+          "slug": "palak-burrata-dill-rice",
+          "description": "Creamy burrata over velvety spinach sauce, paired with fragrant dill rice",
+          "price": 0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "🥕",
+          "allergens_list": [
+            "🥛"
+          ],
+          "tags": [
+            "vegetarian",
+            "main"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-main001.jpg"
+        },
+        {
+          "item_id": "SC-MAIN002",
+          "icon": "🐑",
+          "name": "Goat Kofta Curry with Dill Rice",
+          "slug": "goat-kofta-curry-dill-rice",
+          "description": "Tender goat meatballs simmered in spiced gravy, served with herbed rice",
+          "price": 0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "🐑",
+          "allergens_list": [
+            "🥛",
+            "🌰"
+          ],
+          "tags": [
+            "goat",
+            "main"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-main002.jpg"
+        },
+        {
+          "item_id": "SC-MAIN003",
+          "icon": "🫓",
+          "name": "Assorted Breads",
+          "slug": "assorted-breads",
+          "description": "A selection of soft, warm breads perfect for scooping and savoring",
+          "price": 0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🌾",
+            "🥛"
+          ],
+          "tags": [
+            "bread",
+            "side"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-main003.jpg"
+        }
+      ]
+    },
+    {
+      "section_name": "Desserts",
+      "slug": "desserts",
+      "order": 3,
+      "description": "Sweet endings with warmth and nostalgia",
+      "menu_items": [
+        {
+          "item_id": "SC-DESS001",
+          "icon": "🍨",
+          "name": "Baked Malpua & Rabri with Cardamom Ice Cream",
+          "slug": "baked-malpua-rabri-cardamom-ice-cream",
+          "description": "Warm malpua soaked in rabri, topped with cardamom-kissed ice cream — pure nostalgia",
+          "price": 0,
+          "unit_of_measure": "Serving",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🥚",
+            "🌾",
+            "🌰"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-dess001.jpg"
+        },
+        {
+          "item_id": "SC-DESS002",
+          "icon": "🥕",
+          "name": "Carrot Halwa Cake",
+          "slug": "carrot-halwa-cake",
+          "description": "Moist gajar halwa cake infused with ghee & spices, finished with a gentle sweetness",
+          "price": 0,
+          "unit_of_measure": "Slice",
+          "each_multiple": 1,
+          "protein_type": "",
+          "allergens_list": [
+            "🥛",
+            "🥚",
+            "🌾",
+            "🌰"
+          ],
+          "tags": [
+            "dessert"
+          ],
+          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-dess002.jpg"
+        }
+      ]
+    }
+  ]
+}
