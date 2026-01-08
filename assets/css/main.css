@@ -2382,7 +2382,7 @@ button.alt:hover,
 }
 
 #header.menupage {
-	background-image: url("images/overlay.png"), url("/images/header_menu.png");
+	background-image: url("images/overlay.png"), url("/images/header_menu.jpg");
 }
 
 #header.homepage {
@@ -2390,11 +2390,11 @@ button.alt:hover,
 }
 
 #header.supperclubpage {
-	background-image: url("images/overlay.png"), url("/images/header-spread2.png");
+	background-image: url("images/overlay.png"), url("/images/header-spread2.jpg");
 }
 
 #header.blogpage {
-	background-image: url("images/overlay.png"), url("/images/header_blog.png");
+	background-image: url("images/overlay.png"), url("/images/header_blog.jpg");
 }
 
 #header header * {
