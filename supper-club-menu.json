@@ -27,8 +27,7 @@
           "tags": [
             "vegetarian",
             "starter"
-          ],
-          "image_url": "/images/gallery/samosa-smash-chat.jpg"
+          ]
         },
         {
           "item_id": "SC-START002",
@@ -47,8 +46,7 @@
           "tags": [
             "vegetarian",
             "starter"
-          ],
-          "image_url": "/images/gallery/burrata-chat-3.jpg"
+          ]
         },
         {
           "item_id": "SC-START003",
@@ -68,8 +66,7 @@
           "tags": [
             "chicken",
             "starter"
-          ],
-          "image_url": "/images/gallery/chicken-skewers-4.jpg"
+          ]
         },
         {
           "item_id": "SC-START004",
@@ -89,8 +86,7 @@
             "seafood",
             "shellfish",
             "starter"
-          ],
-          "image_url": "/images/gallery/shrimp-chops-2.jpg"
+          ]
         },
         {
           "item_id": "SC-START005",
@@ -109,8 +105,7 @@
           "tags": [
             "vegetarian",
             "starter"
-          ],
-          "image_url": "/images/gallery/sauces.jpg"
+          ]
         },
         {
           "item_id": "SC-START006",
@@ -130,8 +125,7 @@
             "lamb",
             "soup",
             "starter"
-          ],
-          "image_url": "/images/gallery/focaccia-bread.jpg"
+          ]
         },
         {
           "item_id": "SC-START007",
@@ -151,8 +145,7 @@
             "vegetarian",
             "soup",
             "starter"
-          ],
-          "image_url": "/images/gallery/sauces.jpg"
+          ]
         },
         {
           "item_id": "SC-START008",
@@ -172,8 +165,7 @@
           "tags": [
             "vegetarian",
             "starter"
-          ],
-          "image_url": "/images/gallery/sauces.jpg"
+          ]
         }
       ]
     },
@@ -199,8 +191,7 @@
           "tags": [
             "vegetarian",
             "main"
-          ],
-          "image_url": "/images/gallery/paneer-kofta-biryani.jpg"
+          ]
         },
         {
           "item_id": "SC-MAIN002",
@@ -219,8 +210,7 @@
           "tags": [
             "goat",
             "main"
-          ],
-          "image_url": "/images/gallery/mutton-kofta-biryani.jpg"
+          ]
         },
         {
           "item_id": "SC-MAIN003",
@@ -239,8 +229,7 @@
           "tags": [
             "bread",
             "side"
-          ],
-          "image_url": "/images/gallery/focaccia-bread.jpg"
+          ]
         }
       ]
     },
@@ -268,8 +257,7 @@
           ],
           "tags": [
             "dessert"
-          ],
-          "image_url": "/images/gallery/gulaab-jamoon-parfait.jpg"
+          ]
         },
         {
           "item_id": "SC-DESS002",
@@ -289,8 +277,7 @@
           ],
           "tags": [
             "dessert"
-          ],
-          "image_url": "/images/gallery/gulaab-jamoon-cupcakes.jpg"
+          ]
         }
       ]
     }
