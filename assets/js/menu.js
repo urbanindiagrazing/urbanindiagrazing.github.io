@@ -83,6 +83,58 @@ async function loadMenu(containerId, jsonFile, allergensMap) {
         const nameSpan = document.createElement('span');
         nameSpan.textContent = item.name;
         nameSpan.style.fontSize = '1.25em';
+
+        // Optional thumbnail on the left (uses item.image_url)
+        if (item.image_url) {
+          const thumb = document.createElement('img');
+          thumb.src = item.image_url;
+          thumb.classList.add('item-thumb');
+          thumb.alt = item.name || '';
+          // Prevent clicking the thumbnail from toggling the <details>
+          thumb.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            // Remove any existing overlay first (ensures single fullscreen at a time)
+            const existing = document.querySelector('.img-overlay');
+            if (existing && existing.parentNode) existing.parentNode.removeChild(existing);
+
+            // Create a fullscreen overlay with the image
+            const overlay = document.createElement('div');
+            overlay.classList.add('img-overlay');
+
+            const removeOverlay = () => {
+              document.removeEventListener('keydown', onKey);
+              if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+            };
+
+            const onKey = (evt) => {
+              if (evt.key === 'Escape') removeOverlay();
+            };
+
+            overlay.addEventListener('click', (ev) => {
+              ev.stopPropagation();
+              removeOverlay();
+            });
+
+            const fullImg = document.createElement('img');
+            fullImg.src = item.image_url;
+            fullImg.classList.add('item-full');
+            fullImg.alt = item.name || '';
+            fullImg.addEventListener('click', (ev) => {
+              ev.stopPropagation();
+              removeOverlay();
+            });
+
+            overlay.appendChild(fullImg);
+            document.addEventListener('keydown', onKey);
+            document.body.appendChild(overlay);
+          });
+
+          // Add the thumbnail before the name so it appears on the left
+          itemSummary.appendChild(thumb);
+        }
+
         itemSummary.appendChild(nameSpan);
 
         // If a protein_type is provided, show the emoji and use allergensMap for the description tooltip

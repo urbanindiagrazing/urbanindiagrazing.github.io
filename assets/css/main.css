@@ -168,14 +168,37 @@ textarea {
 	opacity: 0.95;
 }
 
-/* Basic */
-
-@-ms-viewport {
-	width: device-width;
+/* Menu item thumbnail and fullscreen overlay */
+.menu-item summary {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
 }
 
-html {
-	box-sizing: border-box;
+.item-thumb {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: zoom-in;
+  flex-shrink: 0;
+}
+
+.img-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.85);
+  z-index: 10000;
+}
+
+.img-overlay .item-full {
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+  cursor: zoom-out;
 }
 
 *,
