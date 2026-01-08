@@ -26,7 +26,7 @@
             "gluten-free",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat001.jpg"
+          "image_url": "/images/gallery/dahi-bhalla.jpg"
         },
         {
           "item_id": "CHAAT002",
@@ -48,7 +48,7 @@
             "vegetarian",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat002.jpg"
+          "image_url": "/images/gallery/burrata-chat.jpg"
         },
         {
           "item_id": "CHAAT003",
@@ -69,7 +69,7 @@
             "vegetarian",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat003.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "CHAAT004",
@@ -90,7 +90,7 @@
             "vegetarian",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat004.jpg"
+          "image_url": "/images/gallery/samosa-smash-chat.jpg"
         },
         {
           "item_id": "CHAAT005",
@@ -111,7 +111,7 @@
             "vegetarian",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat005.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "CHAAT006",
@@ -132,7 +132,7 @@
             "vegetarian",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat006.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "CHAAT007",
@@ -150,7 +150,7 @@
             "gluten-free",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat007.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "CHAAT008",
@@ -170,7 +170,7 @@
             "vegetarian",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat008.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "CHAAT009",
@@ -189,7 +189,7 @@
             "vegetarian",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat009.jpg"
+          "image_url": "/images/gallery/pani-puri-shots.jpg"
         },
         {
           "item_id": "CHAAT010",
@@ -209,7 +209,7 @@
             "vegetarian",
             "street food"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/chaat010.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "tags": [
             "vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v001.jpg"
+          "image_url": "/images/gallery/veggie-chops.jpg"
         },
         {
           "item_id": "APP-V002",
@@ -255,7 +255,7 @@
           "tags": [
             "vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v002.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "APP-V003",
@@ -275,7 +275,7 @@
           "tags": [
             "vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v003.jpg"
+          "image_url": "/images/gallery/paneer-tartlet-blossoms.jpg"
         },
         {
           "item_id": "APP-V004",
@@ -296,7 +296,7 @@
           "tags": [
             "vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v004.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "APP-V005",
@@ -314,7 +314,7 @@
           "tags": [
             "vegan"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v005.jpg"
+          "image_url": "/images/gallery/veg-laal-kebabs.jpg"
         },
         {
           "item_id": "APP-V006",
@@ -332,7 +332,7 @@
           "tags": [
             "vegan"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v006.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "APP-V007",
@@ -349,7 +349,7 @@
             "vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v007.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "APP-V008",
@@ -367,7 +367,7 @@
           "tags": [
             "vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-v008.jpg"
+          "image_url": "/images/gallery/paniyaaram-skewers.jpg"
         },
         {
           "item_id": "APP-NV001",
@@ -386,7 +386,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv001.jpg"
+          "image_url": "/images/gallery/shrimp-chops.jpg"
         },
         {
           "item_id": "APP-NV002",
@@ -405,7 +405,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv002.jpg"
+          "image_url": "/images/gallery/fish-cutlets.jpg"
         },
         {
           "item_id": "APP-NV003",
@@ -424,7 +424,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv003.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "APP-NV004",
@@ -445,7 +445,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv004.jpg"
+          "image_url": "/images/gallery/shrimp-chops.jpg"
         },
         {
           "item_id": "APP-NV005",
@@ -466,7 +466,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv005.jpg"
+          "image_url": "/images/gallery/chicken-skewers.jpg"
         },
         {
           "item_id": "APP-NV006",
@@ -485,7 +485,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv006.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "APP-NV007",
@@ -504,7 +504,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv007.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "APP-NV008",
@@ -523,7 +523,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/app-nv008.jpg"
+          "image_url": "/images/gallery/mutton-chops.jpg"
         }
       ]
     },
@@ -550,7 +550,7 @@
             "vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v001.jpg"
+          "image_url": "/images/gallery/pav-buns.jpg"
         },
         {
           "item_id": "BREAD-V002",
@@ -569,7 +569,7 @@
             "vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v002.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "BREAD-V003",
@@ -588,7 +588,7 @@
             "vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v003.jpg"
+          "image_url": "/images/gallery/kati-rolls.jpg"
         },
         {
           "item_id": "BREAD-V004",
@@ -607,13 +607,13 @@
             "vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v004.jpg"
+          "image_url": "/images/gallery/focaccia-bread.jpg"
         },
         {
           "item_id": "BREAD-V005",
           "icon": "🍽️",
-          "name": "Butter / Garlic Naan Petals",
-          "slug": "butter-/-garlic-naan-petals",
+          "name": "Butter/Garlic Naan Petals",
+          "slug": "butter/garlic-naan-petals",
           "description": "Mini naans brushed with herb butter",
           "price": 24.0,
           "unit_of_measure": "Dozen",
@@ -628,7 +628,7 @@
             "vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v005.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "BREAD-V006",
@@ -647,7 +647,7 @@
             "vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-v006.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "BREAD-NV001",
@@ -667,7 +667,7 @@
             "non-vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-nv001.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "BREAD-NV002",
@@ -687,7 +687,7 @@
             "non-vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-nv002.jpg"
+          "image_url": "/images/gallery/kati-rolls.jpg"
         },
         {
           "item_id": "BREAD-NV003",
@@ -706,7 +706,7 @@
             "non-vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-nv003.jpg"
+          "image_url": "/images/gallery/kati-rolls.jpg"
         },
         {
           "item_id": "BREAD-NV004",
@@ -726,7 +726,7 @@
             "non-vegetarian",
             "bread"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bread-nv004.jpg"
+          "image_url": "/images/gallery/kati-rolls.jpg"
         }
       ]
     },
@@ -754,7 +754,7 @@
             "vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v001.jpg"
+          "image_url": "/images/gallery/paneer-kofta-biryani.jpg"
         },
         {
           "item_id": "ENT-V002",
@@ -774,7 +774,7 @@
             "vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v002.jpg"
+          "image_url": "/images/gallery/paneer-kofta-biryani.jpg"
         },
         {
           "item_id": "ENT-V003",
@@ -794,7 +794,7 @@
           "tags": [
             "vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v003.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "ENT-V004",
@@ -811,7 +811,7 @@
             "vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v004.jpg"
+          "image_url": "/images/gallery/mushroom-ghee-roast.jpg"
         },
         {
           "item_id": "ENT-V005",
@@ -830,7 +830,7 @@
             "vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v005.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "ENT-V006",
@@ -850,7 +850,7 @@
             "vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-v006.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "ENT-NV001",
@@ -867,7 +867,7 @@
             "non-vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv001.jpg"
+          "image_url": "/images/gallery/mutton-kofta-biryani.jpg"
         },
         {
           "item_id": "ENT-NV002",
@@ -886,7 +886,7 @@
             "non-vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv002.jpg"
+          "image_url": "/images/gallery/mutton-kofta-biryani.jpg"
         },
         {
           "item_id": "ENT-NV003",
@@ -906,7 +906,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv003.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "ENT-NV004",
@@ -923,7 +923,7 @@
             "non-vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv004.jpg"
+          "image_url": "/images/gallery/chicken-ghee-roast.jpg"
         },
         {
           "item_id": "ENT-NV005",
@@ -942,7 +942,7 @@
             "non-vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv005.jpg"
+          "image_url": "/images/gallery/chicken-ghee-roast.jpg"
         },
         {
           "item_id": "ENT-NV006",
@@ -961,7 +961,7 @@
             "non-vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv006.jpg"
+          "image_url": "/images/gallery/chicken-ghee-roast.jpg"
         },
         {
           "item_id": "ENT-NV007",
@@ -982,7 +982,7 @@
           "tags": [
             "non-vegetarian"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv007.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "ENT-NV008",
@@ -1001,7 +1001,7 @@
             "non-vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv008.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "ENT-NV009",
@@ -1020,7 +1020,7 @@
             "non-vegetarian",
             "gluten-free"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/ent-nv009.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         }
       ]
     },
@@ -1047,7 +1047,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess001.jpg"
+          "image_url": "/images/gallery/masala-chai-tiramisu.jpg"
         },
         {
           "item_id": "DESS002",
@@ -1066,7 +1066,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess002.jpg"
+          "image_url": "/images/gallery/masala-chai-tiramisu.jpg"
         },
         {
           "item_id": "DESS003",
@@ -1085,7 +1085,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess003.jpg"
+          "image_url": "/images/gallery/masala-chai-tiramisu.jpg"
         },
         {
           "item_id": "DESS004",
@@ -1104,7 +1104,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess004.jpg"
+          "image_url": "/images/gallery/masala-chai-tiramisu.jpg"
         },
         {
           "item_id": "DESS005",
@@ -1124,7 +1124,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess005.jpg"
+          "image_url": "/images/gallery/shrikhand-canolis.jpg"
         },
         {
           "item_id": "DESS006",
@@ -1144,7 +1144,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess006.jpg"
+          "image_url": "/images/gallery/gulaab-jamoon-cupcakes.jpg"
         },
         {
           "item_id": "DESS007",
@@ -1163,7 +1163,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess007.jpg"
+          "image_url": "/images/gallery/dess007.jpg"
         },
         {
           "item_id": "DESS008",
@@ -1182,7 +1182,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess008.jpg"
+          "image_url": "/images/gallery/gulaab-jamoon-parfait.jpg"
         },
         {
           "item_id": "DESS009",
@@ -1201,7 +1201,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess009.jpg"
+          "image_url": "/images/gallery/gulaab-jamoon-cupcakes.jpg"
         },
         {
           "item_id": "DESS010",
@@ -1220,7 +1220,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/dess010.jpg"
+          "image_url": "/images/gallery/kheer-brulee.jpg"
         }
       ]
     },
@@ -1244,7 +1244,7 @@
           "tags": [
             "beverage"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/bev001.jpg"
+          "image_url": "/images/gallery/mocktails.jpg"
         }
       ]
     },
@@ -1265,7 +1265,7 @@
           "protein_type": "",
           "allergens_list": [],
           "tags": [],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr001.jpg"
+          "image_url": "/images/gallery/spread-closeup-3.jpg"
         },
         {
           "item_id": "ARR003",
@@ -1278,7 +1278,7 @@
           "protein_type": "",
           "allergens_list": [],
           "tags": [],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr003.jpg"
+          "image_url": "/images/gallery/spread-wide-7.jpg"
         },
         {
           "item_id": "ARR004",
@@ -1292,7 +1292,7 @@
           "protein_type": "",
           "allergens_list": [],
           "tags": [],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr004.jpg"
+          "image_url": "/images/gallery/glassware.jpg"
         },
         {
           "item_id": "ARR005",
@@ -1306,7 +1306,7 @@
           "protein_type": "",
           "allergens_list": [],
           "tags": [],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr005.jpg"
+          "image_url": "/images/gallery/wait-staff.jpg"
         },
         {
           "item_id": "ARR006",
@@ -1319,7 +1319,7 @@
           "protein_type": "",
           "allergens_list": [],
           "tags": [],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr006.jpg"
+          "image_url": "/images/gallery/delivery.jpg"
         },
         {
           "item_id": "ARR007",
@@ -1332,7 +1332,7 @@
           "protein_type": "",
           "allergens_list": [],
           "tags": [],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr007.jpg"
+          "image_url": "/images/gallery/spread-wide-8.jpg"
         },
         {
           "item_id": "ARR008",
@@ -1345,7 +1345,7 @@
           "protein_type": "",
           "allergens_list": [],
           "tags": [],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr008.jpg"
+          "image_url": "/images/gallery/spread-closeup-1.jpg"
         },
         {
           "item_id": "ARR009",
@@ -1358,7 +1358,7 @@
           "protein_type": "",
           "allergens_list": [],
           "tags": [],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/arr009.jpg"
+          "image_url": "/images/gallery/menu-launch.jpg"
         }
       ]
     }
