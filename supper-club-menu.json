@@ -28,7 +28,7 @@
             "vegetarian",
             "starter"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start001.jpg"
+          "image_url": "/images/gallery/samosa-smash-chat.jpg"
         },
         {
           "item_id": "SC-START002",
@@ -48,7 +48,7 @@
             "vegetarian",
             "starter"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start002.jpg"
+          "image_url": "/images/gallery/burrata-chat-3.jpg"
         },
         {
           "item_id": "SC-START003",
@@ -69,7 +69,7 @@
             "chicken",
             "starter"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start003.jpg"
+          "image_url": "/images/gallery/chicken-skewers-4.jpg"
         },
         {
           "item_id": "SC-START004",
@@ -90,7 +90,7 @@
             "shellfish",
             "starter"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start004.jpg"
+          "image_url": "/images/gallery/shrimp-chops-2.jpg"
         },
         {
           "item_id": "SC-START005",
@@ -110,7 +110,7 @@
             "vegetarian",
             "starter"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start005.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "SC-START006",
@@ -131,7 +131,7 @@
             "soup",
             "starter"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start006.jpg"
+          "image_url": "/images/gallery/focaccia-bread.jpg"
         },
         {
           "item_id": "SC-START007",
@@ -152,7 +152,7 @@
             "soup",
             "starter"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start007.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         },
         {
           "item_id": "SC-START008",
@@ -173,7 +173,7 @@
             "vegetarian",
             "starter"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-start008.jpg"
+          "image_url": "/images/gallery/sauces.jpg"
         }
       ]
     },
@@ -200,7 +200,7 @@
             "vegetarian",
             "main"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-main001.jpg"
+          "image_url": "/images/gallery/paneer-kofta-biryani.jpg"
         },
         {
           "item_id": "SC-MAIN002",
@@ -220,7 +220,7 @@
             "goat",
             "main"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-main002.jpg"
+          "image_url": "/images/gallery/mutton-kofta-biryani.jpg"
         },
         {
           "item_id": "SC-MAIN003",
@@ -240,7 +240,7 @@
             "bread",
             "side"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-main003.jpg"
+          "image_url": "/images/gallery/focaccia-bread.jpg"
         }
       ]
     },
@@ -269,7 +269,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-dess001.jpg"
+          "image_url": "/images/gallery/gulaab-jamoon-parfait.jpg"
         },
         {
           "item_id": "SC-DESS002",
@@ -290,7 +290,7 @@
           "tags": [
             "dessert"
           ],
-          "image_url": "https://placeholder.urbanindiagrazing.com/images/sc-dess002.jpg"
+          "image_url": "/images/gallery/gulaab-jamoon-cupcakes.jpg"
         }
       ]
     }
